@@ -1,0 +1,65 @@
+{
+  "name": "pink-umbrella",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "npx webpack",
+    "build": "cross-env NODE_ENV=production gulp",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dispossible/pink-umbrella.git"
+  },
+  "author": "Dispossible",
+  "bugs": {
+    "url": "https://github.com/dispossible/pink-umbrella/issues"
+  },
+  "homepage": "https://github.com/dispossible/pink-umbrella#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^1.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-real-favicon": "^0.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "run-sequence": "^2.2.0",
+    "socket.io-client": "^2.0.4",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "helmet": "^3.9.0",
+    "jdenticon": "^1.7.2",
+    "lodash": "^4.17.4",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.0.4"
+  }
+}
